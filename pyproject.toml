@@ -24,8 +24,8 @@ dependencies = [
   "numpy<2.0.0",
   "sentencepiece",
   "spacy>=3.6.1",
-  "torch==2.1.0+cu121",
-  "torchaudio==2.1.0+cu121",
+  "torch==2.1.0"
+  "torchaudio>=2.0.0,<2.1.2"
   "huggingface_hub",
   "tqdm",
   "transformers>=4.31.0",
@@ -37,8 +37,8 @@ dependencies = [
   "torchmetrics",
   "encodec",
   "protobuf",
-  "torchvision==0.16.0+cu121",
-  "torchtext",
+  "torchvision==0.16.0",
+  "torchtext==0.16.0",
   "pesq",
   "pystoi"
 ]
