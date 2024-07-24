@@ -32,8 +32,6 @@ try:
 except FileNotFoundError:
     long_description = DESCRIPTION
 
-REQUIRED = [i.strip() for i in open(HERE / 'requirements.txt') if not i.startswith('#')]
-
 setup(
     name=NAME,
     version=VERSION,
@@ -44,7 +42,6 @@ setup(
     author=AUTHOR,
     url=URL,
     python_requires=REQUIRES_PYTHON,
-    install_requires=REQUIRED,
     extras_require={
         'dev': ['coverage', 'flake8', 'mypy', 'pdoc3', 'pytest'],
         'wm': ['audioseal'],
