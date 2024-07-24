@@ -10,7 +10,7 @@ url = 'https://github.com/facebookresearch/audiocraft'
 authors = [
   {name = "FAIR Speech & Audio", email = "defossez@meta.com, jadecopet@meta.com"}
 ]
-license = 'MIT License'
+license = {text = 'MIT License'}
 requires-python = '>=3.8.0'
 dependencies = [
   "av==11.0.0",
