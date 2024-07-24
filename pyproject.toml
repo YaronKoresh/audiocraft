@@ -29,7 +29,7 @@ dependencies = [
   "huggingface_hub",
   "tqdm",
   "transformers>=4.31.0",
-  "xformers>=0.0.23",
+  "xformers<0.0.23",
   "demucs",
   "librosa",
   "soundfile",
