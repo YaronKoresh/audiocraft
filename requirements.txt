@@ -9,12 +9,12 @@ num2words
 numpy<2.0.0
 sentencepiece
 spacy>=3.6.1
-torch==2.1.0
-torchaudio>=2.0.0,<2.1.2
+torch==^2.4.0+cu121
+torchaudio==^2.4.0+cu121
 huggingface_hub
 tqdm
 transformers>=4.31.0  # need Encodec there.
-xformers<0.0.23
+xformers>=0.0.23
 demucs
 librosa
 soundfile
@@ -22,7 +22,7 @@ gradio
 torchmetrics
 encodec
 protobuf
-torchvision==0.16.0
+torchvision==^0.19.0+cu121
 torchtext==0.16.0
 pesq
 pystoi
