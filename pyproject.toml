@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "audiocraft"
 version = "1.3.0"
 description = 'Audio generation research library for PyTorch'
-url = 'https://github.com/facebookresearch/audiocraft'
 authors = [
   {name = "FAIR Speech & Audio"},
   {email = "defossez@meta.com"},
