@@ -42,3 +42,6 @@ dependencies = [
   "pesq",
   "pystoi"
 ]
+
+[tool.setuptools.packages.find]
+where = ["audiocraft"]
