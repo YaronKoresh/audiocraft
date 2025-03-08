@@ -1,0 +1,51 @@
+[project]
+name = "audiocraft"
+description = "Audio generation research library for PyTorch"
+version = "1.4.0"
+authors = [
+	{name = "FAIR Speech & Audio"},
+        {email = "defossez@meta.com"},
+        {email = "jadecopet@meta.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.8.0"
+dependencies = [
+"av",
+"einops",
+"flashy",
+"hydra-core",
+"hydra_colorlog",
+"julius",
+"num2words",
+"numpy",
+"sentencepiece",
+"spacy",
+"torch",
+"torchaudio",
+"huggingface_hub",
+"tqdm",
+"transformers",
+"xformers",
+"demucs",
+"librosa",
+"soundfile",
+"gradio",
+"torchmetrics",
+"encodec",
+"protobuf",
+"torchvision",
+"torchtext",
+"pesq",
+"pystoi",
+"torchdiffeq",
+"encodec",
+"pytaglib"
+]
+
+[project.urls]
+Repository = "https://github.com/facebookresearch/audiocraft"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
