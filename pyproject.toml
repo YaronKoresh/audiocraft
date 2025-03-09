@@ -17,15 +17,13 @@ dependencies = [
 "hydra_colorlog",
 "julius",
 "num2words",
-"numpy",
+"numpy>=1.26.4,<2.0.0",
 "sentencepiece",
 "spacy==3.7.6",
-"torch",
-"torchaudio",
 "huggingface_hub",
 "tqdm",
 "transformers",
-"xformers<0.0.23",
+"xformers>=0.0.22,<0.0.28",
 "demucs",
 "librosa",
 "soundfile",
@@ -33,13 +31,15 @@ dependencies = [
 "torchmetrics",
 "encodec",
 "protobuf",
-"torchvision",
-"torchtext",
 "pesq",
 "pystoi",
 "torchdiffeq",
 "encodec",
-"pytaglib"
+"pytaglib",
+"torch>=2.1.0,<2.5.0",
+"torchaudio>=2.0.0,<2.5.0",
+"torchvision>=0.16.0,<0.20.0",
+"torchtext>=0.16.0,<0.20.0"
 ]
 
 [project.urls]
